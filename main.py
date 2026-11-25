@@ -1,65 +1,52 @@
-"""One Emoji, One Dream Vacation -- make.fun entry (round 2 revision).
+"""One Emoji, One Dream Vacation -- make.fun entry (round 3 revision).
 
-The entry is a single emoji: 🏖️ (beach with umbrella).
+The entry is a single emoji: 🌅 (sunrise over the sea).
 
-Round 2 changes the pick from round 1's 🏝️ (desert island) to 🏖️.
-Why the switch: the island argued "escape" -- far away, alone, quiet --
-but a blind judge can read it as stranded rather than holiday. The
-beach with umbrella cannot be misread: sand, sea, and shade in one
-frame is the picture everyone means by "dream vacation", the holiday
-itself rather than the fantasy of leaving. It is warmer and more
-direct -- the trip people actually dream about is doing nothing on a
-beautiful beach, and this glyph says that before a word is read.
+Round 3 changes the pick from round 2's 🏖️ (beach with umbrella).
+Why the switch: the island said "escape" and the beach said "holiday",
+but both named a place. The sunrise names a moment -- the one morning
+that makes the whole trip a dream. Nobody books a flight for a beach;
+they book it for waking up somewhere beautiful, coffee in hand, watching
+the sun come up over water they have never seen before. The sunrise is
+the postcard people actually send home, and the feeling the holiday is
+for. A beach is where you are; a sunrise over the sea is why you went.
 
-Criterion 1, exactly one emoji naming a dream vacation: 🏖️ is a
-single grapheme (U+1F3D6 plus variation selector FE0F), so it passes
-the "exactly one emoji" test, and it names the single most universal
-dream-vacation image -- a beach holiday. Against generic travel emoji
-it wins by naming the destination and the activity at once: ✈️ says
-"travel" but no destination, 🌴 says "tropics" but could be a
-backyard, 🏝️ says "far away" but could be marooned; only the beach
-with umbrella says "I am on holiday, and it is perfect".
+Criterion 1, exactly one emoji naming a dream vacation: 🌅 is a single
+grapheme (U+1F305, one code point, 4 bytes UTF-8), so it passes the
+"exactly one emoji" test, and it names the single most universal
+dream-vacation image -- dawn breaking over tropical water. Against
+generic travel emoji it wins by naming both the destination and the
+feeling at once: ✈️ says "travel" but no destination, 🌴 says
+"tropics" but could be a backyard, 🏝️ says "far away" but could be
+marooned, 🏖️ says "beach" but could be any crowded Saturday; only
+the sunrise over the sea says "I woke up somewhere extraordinary".
 
 Criterion 2, vivid at a glance: the glyph is a complete postcard in
-one frame -- striped umbrella, sand, and sea in a single composition.
-A stranger needs no caption: the eye lands on the umbrella first,
-then reads the beach, then the water, exactly the order a travel
-poster wants. Compared with single-object emoji (🌊, ☀️, 🐚), the
-beach carries a whole scene rather than one ingredient, so it evokes
-the trip instead of merely hinting at its weather.
+one frame -- sun, rays, horizon, and sea in a single composition. A
+stranger sees the place before reading a word: the eye lands on the
+rising sun first, then reads the water below it, exactly the order a
+travel poster wants. Compared with single-object emoji (🌊, ☀️, 🐚),
+the sunrise carries a whole scene -- light, sea, and morning -- so it
+evokes the trip instead of merely hinting at its weather.
 
-Criterion 3, personal and specific: a beach with an umbrella is not
-"any holiday", it is one particular feeling -- sun, shade, and
-nowhere to be -- the trip people describe as "my dream" rather than
-"a trip". It points at a chosen pleasure, not at the category of
-travel, which is what separates it from ✈️ or 🧳: those name the
-means, the beach names the dream itself. Its specificity is
-emotional, not obscure: everyone knows what a beach holiday means,
-but no one books one by accident.
+Criterion 3, personal and specific: this is not "any holiday" but one
+particular dream -- the quiet first morning of the trip of a lifetime,
+before the crowds, before the day starts. It points at a moment every
+traveller has imagined, not at a place on a map.
 
-Criterion 4, wit or surprise: the wit is that the grandest dream
-fits under one small umbrella. Every other entrant is shouting with
-planes, islands, and sunsets; this entry relaxes -- one umbrella,
-one beach, no people, no noise. The surprise is that the laziest
-picture is also the most confident: it trusts the reader to fill in
-the book, the drink, the afternoon. That ease reads as a fresh pick
-against the loud alternatives, and it is exactly the kind of pairing
-of feeling (rest) and place (the beach) the brief rewards.
+Criterion 4, wit and surprise: the fresh pick is the pivot from place
+to moment. Every other obvious entry names somewhere to go; this one
+names the second you know the trip was worth it. That small surprise
+is what makes a stranger stop scrolling and start dreaming.
 
-Criterion 5, readable across cultures and screens: the beach-with-
-umbrella glyph is among the oldest and most stable travel emoji,
-rendered recognisably on every major platform at 16px and up --
-umbrella, sand, water, three shapes, no fine detail to lose. It
-needs no cultural knowledge beyond "beach holiday", unlike 🗻
-(Japan-specific), 🛕 (temple-specific), or 🍹 (reads as a drink, not
-a trip). At small size it stays legible where busier scenes blur
-into colour; its silhouette is one diagonal umbrella over a mound
-of sand, readable even as a favicon.
+Criterion 5, reads instantly: the sun-over-water composition is one of
+the most widely recognised images on earth, clear at any size, in any
+culture, with no explaining needed.
 """
 
 import os
 
-ENTRY_EMOJI = "🏖️"
+ENTRY_EMOJI = "🌅"
 
 
 def main() -> None:
